@@ -1,6 +1,6 @@
 Name:		texlive-pdflatexpicscale
 Version:	46617
-Release:	1
+Release:	2
 Summary:	Support software for downscaling graphics to be included by pdfLaTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/pdflatexpicscale
