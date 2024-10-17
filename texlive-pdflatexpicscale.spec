@@ -3,7 +3,7 @@ Version:	46617
 Release:	2
 Summary:	Support software for downscaling graphics to be included by pdfLaTeX
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/pdflatexpicscale
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/pdflatexpicscale
 License:	lppl
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pdflatexpicscale.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pdflatexpicscale.doc.r%{version}.tar.xz
