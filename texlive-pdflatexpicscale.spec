@@ -1,5 +1,6 @@
 %global tl_name pdflatexpicscale
 %global tl_revision 72650
+%global tl_bin_links pdflatexpicscale:%{_texmfdistdir}/scripts/pdflatexpicscale/pdflatexpicscale.pl
 
 Name:		texlive-%{tl_name}
 Epoch:		1
@@ -15,6 +16,8 @@ BuildArch:	noarch
 BuildSystem:	texlive
 Requires:	texlive(pdflatexpicscale.bin)
 Provides:	texlive(%{tl_name}) = %{tl_revision}
+Provides:	texlive(%{tl_name}.bin) = %{tl_revision}
+Provides:	texlive-%{tl_name}.bin = %{EVRD}
 
 %description
 The package provides a script to scale pictures down to a target
